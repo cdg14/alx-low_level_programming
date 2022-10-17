@@ -15,6 +15,7 @@ int main(void)
 	{
 		if (i != 'e' || i != 'q')
 		{
+			continue;
 			putchar(i);
 		}
 	}
