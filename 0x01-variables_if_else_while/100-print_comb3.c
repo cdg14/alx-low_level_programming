@@ -19,16 +19,17 @@ int main(void)
 			else if (i == j)
 			{
 				continue;
-			}		
+			}
 			else if (i == '8' && j == '9')
-																			{																	break;
-																			}
-			{																	putchar(',');
-																				putchar(' ');
+			{																break;
+																		}
+			else
+			{																putchar(',');
+																			putchar(' ');
 			}
 		}
 		k++;
 		}
 		putchar('\n');
-		return : (0);
+		return (0);
 }
